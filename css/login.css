@@ -1,0 +1,39 @@
+#login-box{
+    background-color: #FEFAE0;
+    margin: 157px 193px 0 193px;
+    text-align: center;
+    padding: 50px;
+    color: #4B3825;
+}
+ 
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+input[type=text]{
+    width: 50%;
+    margin: 10px 0 25px;
+    padding: 12px 20px;
+    border: 0px;
+    background-color: #E9EDC9;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #CCD5AE;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border: 0px;
+    padding: 12px 20px;
+}
+ 
+p{
+    margin: 25px;
+}
+
+button:hover{
+    background-color: #C9D1AD;
+    cursor:pointer;
+}
