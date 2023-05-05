@@ -1,3 +1,4 @@
+/* nav */
 .navbar-nav {
     margin-left: auto;
 }
@@ -17,27 +18,90 @@
 .navbar-nav a:hover {
     background-color: #DBE1BC;
 }
+/* carousel */
+#carouselExampleCaptions {
+  margin: 40px auto;
+}
+.carousel-img {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+/* .carousel-img { 
+    display: flex;
+    object-fit: cover;
+    height: 300px;
+    width: 50%;
+    border-radius: 5px;
+    align-items: center; 
+}
+*/
+/* main */
+main {
+    background-color: #E9EDC9;
+}
+html {
+    background-color: #E9EDC9;
+}
+
+/* Comment Box 1*/
+.home_comment{
+    background-color: beige;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.circle {
+    background-color: rgb(209, 160, 61);
+    border-radius: 100px;
+    width: 50px;
+}
+.text_box {
+    background-color: #919d6a;
+    border-radius: 5px;
+}
+
+/* Comment Box 2*/
+.home_comment_2 {
+    background-color: beige;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 5px;
+}
+.circle2 {
+    background-color: rgb(209, 160, 61);
+    border-radius: 100px;
+    width: 50px;
+}
+.text_box2{
+    background-color: #919d6a;
+    border-radius: 5px;
+}
+
+/*FOOTER */
+.footer-links { 
+    text-align: right;
+    padding: 0px 20px 0px 20px;
+}
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px; 
     background-color: #CCD5AE;
     padding: 10px 0px 0px 0px;
-}
-.carousel-img { 
-    object-fit: cover;
-    height: 300px;
-    width: 80%;
-}
-
-html {
-    background-color: #E9EDC9;
-}
-
-.footer-links { 
-    text-align: right;
-    padding: 0px 20px 0px 20px;
 }
 .footer-links a {
     display: inline-block;
