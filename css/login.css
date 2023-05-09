@@ -1,6 +1,6 @@
 #login-box{
     background-color: #FEFAE0;
-    margin: 157px 193px 0 193px;
+    margin: 157px 20% 0 20%;
     text-align: center;
     padding: 50px;
     color: #4B3825;
@@ -12,8 +12,8 @@ h1{
 }
 
 input[type=text]{
-    width: 50%;
-    margin: 10px 0 25px;
+    width: 40%;
+    margin: 20px 0 28px;
     padding: 12px 20px;
     border: 0px;
     background-color: #E9EDC9;
@@ -23,14 +23,14 @@ input[type=text]{
 button{
     background-color: #CCD5AE;
     display: block;
-    width: 50%;
+    width: 40%;
     margin: auto;
     border: 0px;
     padding: 12px 20px;
 }
  
 p{
-    margin: 25px;
+    margin: 35px;
 }
 
 button:hover{
