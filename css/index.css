@@ -44,9 +44,10 @@
 }
 */
 /* main */
-main {
-    background-color: #E9EDC9;
+body{
+    background-color: #E9EDC9 !important;
 }
+
 html {
     background-color: #E9EDC9;
 }
