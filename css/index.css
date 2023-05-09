@@ -61,12 +61,14 @@ html {
     border-radius: 5px;
 
 }
-
-.circle {
-    background-color: rgb(209, 160, 61);
-    border-radius: 100px;
+.dot {
+    height: 50px;
     width: 50px;
-}
+    background-color: #f19c2d;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
 .text_box {
     background-color: #919d6a;
     border-radius: 5px;
@@ -81,14 +83,13 @@ html {
     padding: 30px;
     border-radius: 5px;
 }
-.circle2 {
-    background-color: rgb(209, 160, 61);
-    border-radius: 100px;
-    width: 50px;
-}
+
 .text_box2{
     background-color: #919d6a;
     border-radius: 5px;
+}
+.username {
+    margin: 0px 70px 15px;
 }
 
 /*FOOTER */
