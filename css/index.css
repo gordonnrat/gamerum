@@ -88,6 +88,9 @@ footer {
 .footer-links a:hover {
     background-color: #DBE1BC;
 }
-.fa-solid{
+.fa-heart{
     cursor: pointer;
+}
+.nav-item{
+    list-style-type: none;  
 }

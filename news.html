@@ -34,12 +34,25 @@
                 <a class="nav-link" href="forums.html">Forums</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+                <button id="login-button" class="login" onclick="document.getElementById('login').style.display='block'">Login</button>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      
+      <div id="login" class="modal">
+        <div id="login-box">
+          <h1>Sign in to Gamerum</h1>
+          <form id="login" onsubmit="return false">
+              <input id="username" type="text" placeholder="Phone, email, or username" name="username">
+              <button type="submit" id="nextbutton">Next</button>
+          </form>
+          <p>Don't have an account? Sign up</p>
+        </div>
+      </div>
+      
 	  <main>
 			<h2 class="latest-news-header">Latest News</h2>
 		<section id="latest-news">
@@ -76,6 +89,7 @@
             <a href="forums.html">Forums</a>
             <a href="login.html">Login</a>
           </div>
-    </footer>
+  </footer>
+  <script src="./java/login.js"></script>
 </body>
 </html>

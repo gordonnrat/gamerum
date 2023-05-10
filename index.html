@@ -44,7 +44,7 @@
                 <a class="nav-link" href="forums.html">Forums</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+                <button id="login-button" class="login" onclick="document.getElementById('login').style.display='block'">Login</button>
               </li>
             </ul>
           </div>
@@ -52,6 +52,16 @@
         
       </nav>
       
+      <div id="login" class="modal">
+        <div id="login-box">
+          <h1>Sign in to Gamerum</h1>
+          <form id="login" onsubmit="return false">
+              <input id="username" type="text" placeholder="Phone, email, or username" name="username">
+              <button type="submit" id="nextbutton">Next</button>
+          </form>
+          <p>Don't have an account? Sign up</p>
+        </div>
+      </div>
     <!-- Main -->
     <main>
     <div class="carousel-margin">
@@ -156,7 +166,8 @@
                   </div>
                   <p id="replies-name">Comments</p>
                 </div>
-          </div>
+              </div>
+              <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
         </div>
         </div>
       <div class ="home_comment">
@@ -184,12 +195,25 @@
     </main>
 <script src="https://kit.fontawesome.com/197ca40d8c.js" crossorigin="anonymous"></script>
 <script>
-  let fullHeart = document.querySelector(".fa-solid")
-
-  fullHeart.addEventListener("click",(e)=>{
-    console.log(e);
+  const hearts = document.querySelectorAll(".fa-heart")
+  const comments = document.querySelectorAll(".replies")
+  hearts.forEach((heart)=>{
+    heart.addEventListener("click",(e)=>{
+      e.srcElement.className == "fa-regular fa-heart"?  e.srcElement.className = "fa-solid fa-heart" : e.srcElement.className = "fa-regular fa-heart"
+    })
   })
+comments.forEach((comment) => {
+  comment.addEventListener("click", (e) => {
+    let target = e.target.parentNode.parentNode.parentNode;
+    console.log(target);
+    
+    let textarea = document.createElement('textarea');
+    target.appendChild(textarea);
+  });
+});
+
 </script>
+<script src="./java/login.js"></script>
 <!-- Footer -->
 <footer class="footer">
     <div class="footer-links">
