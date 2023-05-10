@@ -6,3 +6,24 @@
 body{
     background-color: #E9EDC9;
 }
+
+/* nav */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-color {
+    background-color: #CCD5AE;
+}
+
+.navbar-nav a {
+    display: inline-block;
+    color: #4B3825;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.navbar-nav a:hover {
+    background-color: #DBE1BC;
+}
