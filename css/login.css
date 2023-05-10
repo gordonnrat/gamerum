@@ -5,7 +5,17 @@
     padding: 50px;
     color: #4B3825;
     max-width: 700px;
-    border-radius: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.back{
+    text-align: left;
+}
+
+.back a{
+    color: #010101;
+    text-decoration: none;
 }
 
 h1{

@@ -18,6 +18,11 @@
 .navbar-nav a:hover {
     background-color: #DBE1BC;
 }
+
+#dropdown-menu{
+    list-style-type: none;
+  }
+
 /* carousel */
 #carouselExampleCaptions {
   margin: 40px auto;
@@ -26,9 +31,10 @@
 .carousel-img {
     width: 50%;
     height: 300px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border-radius: 10px;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .carousel-item {
@@ -43,52 +49,18 @@
     margin-right: -40vw;
 }
 
-/* .carousel-img { 
-    display: flex;
-    object-fit: cover;
-    height: 300px;
-    width: 50%;
-    border-radius: 5px;
-    align-items: center; 
-}
-*/
-
 /* main */
 body{
     background-color: #E9EDC9 !important;
 }
-
+.reaction {
+    display: flex;
+}
+.replies {
+   margin-left: 10px;
+}
 html {
     background-color: #E9EDC9;
-}
-
-/* Comment Box */
-.home_comment {
-    background-color: beige;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    padding: 30px;
-    border-radius: 5px;
-}
-
-.dot {
-    display: flex;
-    height: 50px;
-    width: 50px;
-    background-color: #f19c2d;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.text_box {
-    background-color: #919d6a;
-    border-radius: 5px;
-    padding: 15px 15px 10px 15px;
-}
-
-.username {
-    margin: 0px 70px 15px;
 }
 
 /*FOOTER */
@@ -115,4 +87,7 @@ footer {
   
 .footer-links a:hover {
     background-color: #DBE1BC;
+}
+.fa-solid{
+    cursor: pointer;
 }

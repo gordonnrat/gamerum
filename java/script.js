@@ -39,12 +39,12 @@ const questions = [
         ]
     },
     {
-        question: "Which one of these pokemon is not a starter?",
+        question: " What year was the Nintendo Wii released?",
         answer: [
-            {text: "Charmander", correct: false},
-            {text: "Squirtle", correct: false},
-            {text: "Bulbasaur", correct: false},
-            {text: "Pikachu", correct: true}
+            {text: "2002", correct: false},
+            {text: "2000", correct: false},
+            {text: "2005", correct: false},
+            {text: "2006", correct: true}
         ]
     },
     {

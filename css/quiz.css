@@ -8,6 +8,11 @@ body {
     background-color: #E9EDC9;
 }
 
+.back a{
+    color: #010101;
+    text-decoration: none;
+}
+
 .container {
     background-color: #FEFAE0;
     width: 90%;
