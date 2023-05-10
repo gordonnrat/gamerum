@@ -5,6 +5,7 @@
     padding: 50px;
     color: #4B3825;
     max-width: 700px;
+    border-radius: 50px;
 }
 
 h1{
@@ -21,6 +22,14 @@ input[type=text]{
     box-sizing: border-box;
 }
 
+input#password {
+    width: 40%;
+    margin: 20px 0 28px;
+    padding: 12px 20px;
+    border: 0px;
+    background-color: #E9EDC9;
+    box-sizing: border-box;
+}
 button{
     background-color: #CCD5AE;
     display: block;

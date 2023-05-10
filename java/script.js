@@ -21,12 +21,12 @@ const questions = [
         ]
     },
     {
-        question: "Which gaming platform is owned by Microsoft",
+        question: "Which gaming platform is owned by Microsoft?",
         answer: [
-            {text: "yeth", correct: true},
-            {text: "not really", correct: false},
-            {text: "yes", correct: false},
-            {text: "no", correct: false}
+            {text: "XBOX", correct: true},
+            {text: "PS4", correct: false},
+            {text: "Switch", correct: false},
+            {text: "Steam Deck", correct: false}
         ]
     },
     {
@@ -39,12 +39,12 @@ const questions = [
         ]
     },
     {
-        question: "In Valorant, what is the name of the map that features a large statue in the middle of the site?",
+        question: "Which one of these pokemon is not a starter?",
         answer: [
-            {text: "Split", correct: false},
-            {text: "Bind", correct: false},
-            {text: "Haven", correct: false},
-            {text: "Ascent", correct: true}
+            {text: "Charmander", correct: false},
+            {text: "Squirtle", correct: false},
+            {text: "Bulbasaur", correct: false},
+            {text: "Pikachu", correct: true}
         ]
     },
     {
