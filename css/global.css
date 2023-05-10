@@ -29,3 +29,57 @@ body{
     background-color: #DBE1BC;
 }
 
+/* Comment Box 1*/
+.home_comment{
+    background-color: beige;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto 50px;
+    padding: 30px 30px 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home_comment:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.circle img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.text_box {
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#username {
+    margin-bottom: 10px;
+}
+
+.text_box hr {
+    margin: 0;
+}
+
+#comment {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.replies{
+    display:flex;
+    margin: 0 20 0 20;
+    width: 110px;
+    height: 25px;
+}
+
+.replies:hover{
+    cursor: pointer;
+    background-color: #DBE1BC;
+}
+
+#replies-name{
+    margin-left: 10px;
+}

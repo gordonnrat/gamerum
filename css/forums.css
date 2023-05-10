@@ -7,6 +7,7 @@
     background-color: #FEFAE0;
     height: 100px;
     display: flex;
+    
 }
 
 .title{
@@ -21,46 +22,6 @@
     position: relative;
     left: 30px;
     bottom: 30px;
-}
-
-/* Comment Box 1*/
-.home_comment{
-    background-color: beige;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    padding: 30px;
-    border-radius: 5px;
-
-}
-
-.circle {
-    background-color: rgb(209, 160, 61);
-    border-radius: 100px;
-    width: 50px;
-}
-.text_box {
-    background-color: #919d6a;
-    border-radius: 5px;
-}
-
-/* Comment Box 2*/
-.home_comment_2 {
-    background-color: beige;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    padding: 30px;
-    border-radius: 5px;
-}
-.circle2 {
-    background-color: rgb(209, 160, 61);
-    border-radius: 100px;
-    width: 50px;
-}
-.text_box2{
-    background-color: #919d6a;
-    border-radius: 5px;
 }
 
 /*FOOTER */
