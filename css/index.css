@@ -22,6 +22,7 @@
 #carouselExampleCaptions {
   margin: 40px auto;
 }
+
 .carousel-img {
     width: 50%;
     height: 300px;
@@ -34,6 +35,14 @@
     text-align: center;
 }
 
+.carousel-control-next-icon {
+    margin-left: -40vw;
+}
+
+.carousel-control-prev-icon {
+    margin-right: -40vw;
+}
+
 /* .carousel-img { 
     display: flex;
     object-fit: cover;
@@ -43,51 +52,41 @@
     align-items: center; 
 }
 */
+
 /* main */
-main {
-    background-color: #E9EDC9;
+body {
+    background-color: #E9EDC9 !important;
 }
+
 html {
     background-color: #E9EDC9;
 }
 
-/* Comment Box 1*/
-.home_comment{
+/* Comment Box */
+.home_comment {
     background-color: beige;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
     padding: 30px;
     border-radius: 5px;
-
 }
+
 .dot {
+    display: flex;
     height: 50px;
     width: 50px;
     background-color: #f19c2d;
     border-radius: 50%;
     display: inline-block;
-  }
+}
 
 .text_box {
     background-color: #919d6a;
     border-radius: 5px;
+    padding: 15px 15px 10px 15px;
 }
 
-/* Comment Box 2*/
-.home_comment_2 {
-    background-color: beige;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    padding: 30px;
-    border-radius: 5px;
-}
-
-.text_box2{
-    background-color: #919d6a;
-    border-radius: 5px;
-}
 .username {
     margin: 0px 70px 15px;
 }

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9EDC9;
+}
+
+.container {
+    background-color: #FEFAE0;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 50px;
+}
+    /* 4. Select the btn class:
+        add a background color
+        add a text color
+        width to 100% 
+        add margin recommended 5px-30px
+        add padding recommended 5px-30px
+        optionally:
+            add a border
+            add a border-radius 
+            add a cursor
+            add text-align
+    */
+
+.btn{
+    background-color: #D4A373;
+    color: rgb(241, 240, 225);
+    width: 100%;
+    margin: 7px;
+    padding: 10px;
+    border: 1px solid #D4A373;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* 5. Select the next-btn div:
+        add a background color
+        add a text color
+        width to ~150px
+        border to 0
+        padding to ~10px
+        margin to 20px auto 0
+        display to none [we will set this to block later using javascript]
+        optionally:
+            add a border-radius 
+            add a cursor
+            add text-align
+    */
+#next-btn {
+    background: #D4A373;
+    color: antiquewhite;
+    margin: 30px 0;
+    padding: 10px;
+    border: 1px solid #D4A373;
+    border-radius: 4px;
+    
+    width: 150px;
+    display: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(50, 44, 44);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(88, 42, 37);
+    margin: 20px 0;
+}
+
+h2 {
+    color: rgb(50, 44, 44);
+    margin: 20px 0;
+}
+
+.btn:hover{
+    background: #E7C8A0;
+    color: rgb(243, 141, 9);
+}
+
+.correct {
+    background: rgb(192, 232, 192);
+}
+
+.incorrect {
+    background: rgb(240, 183, 176);
+}
