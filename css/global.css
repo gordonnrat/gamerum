@@ -131,7 +131,7 @@ body{
 
 #login-box input[type=text]{
     width: 40%;
-    margin: 20px 0 28px;
+    margin: 20px 0 0;
     padding: 12px 20px;
     border: 0px;
     background-color: #E9EDC9;
@@ -146,11 +146,11 @@ body{
     background-color: #E9EDC9;
     box-sizing: border-box;
 }
-#login-box button{
+#nextbutton{
     background-color: #CCD5AE;
     display: block;
     width: 40%;
-    margin: auto;
+    margin: 28px auto;
     border: 0px;
     padding: 12px 20px;
 }
@@ -159,7 +159,17 @@ body{
     margin: 35px;
 }
 
-#login-box button:hover{
+#nextbutton:hover{
     background-color: #C9D1AD;
     cursor:pointer;
 }
+
+#cancel{
+    width: 10%;
+    background-color: transparent;
+    border: 0;
+}
+
+/* #cancel:hover{
+    background-color: #F4F4D5;
+} */
