@@ -177,3 +177,23 @@ body{
 /* #cancel:hover{
     background-color: #F4F4D5;
 } */
+
+.communities-tab{
+    background-color: #FEFAE0;
+    padding: 5px 9px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.communities-tab ul{
+    background-color: #FEFAE0;
+    position: relative;
+    border-radius: 0%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: none;
+}
+
+.dropdown-list{
+    position: absolute;
+    left: -10px;
+    top: 25px;
+}
