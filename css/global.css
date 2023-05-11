@@ -28,7 +28,6 @@ body{
 .navbar-nav a {
     display: inline-block;
     color: #4B3825;
-    padding: 10px;
     margin: 0 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -57,6 +56,19 @@ body{
 .circle img{
     border-radius: 50%;
     width: 60px;
+}
+
+.comment-img{
+    max-height: 500px;
+    /* object-fit: cover; */
+    margin: 10px 0;
+    overflow: hidden;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.2) 1px solid;
+}
+
+.comment-img img{
+    width: 100%;
 }
 
 .text_box {
@@ -212,7 +224,8 @@ body{
 
 .replies:hover{
     cursor: pointer;
-    background-color: #DBE1BC;
+    /* background-color: #DBE1BC; */
+    color: royalblue;
 }
 
 #replies-name{
