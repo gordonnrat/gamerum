@@ -88,12 +88,17 @@
             <hr>
             <p id="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    
             </p>
-            <div class="replies">
+            <div class="reaction">
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="replies">
                 <div class="icons">
                     <i class="fa-solid fa-comment"></i>
                 </div>
                 <p id="replies-name">Comments</p>
-            </div>
+              </div>
+        </div>
         </div>
       </div>
 
@@ -106,12 +111,17 @@
             <hr>
             <p id="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    
             </p>
-            <div class="replies">
+            <div class="reaction">
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="replies">
                 <div class="icons">
                     <i class="fa-solid fa-comment"></i>
                 </div>
                 <p id="replies-name">Comments</p>
-            </div>
+              </div>
+        </div>
         </div>
       </div>
 
@@ -124,12 +134,17 @@
             <hr>
             <p id="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    
             </p>
-            <div class="replies">
+            <div class="reaction">
+              <div class="like">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="replies">
                 <div class="icons">
                     <i class="fa-solid fa-comment"></i>
                 </div>
                 <p id="replies-name">Comments</p>
-            </div>
+              </div>
+        </div>
         </div>
       </div>
 
@@ -145,5 +160,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/197ca40d8c.js" crossorigin="anonymous"></script>
     <script src="./java/login.js"></script>
+    <script>
+      const hearts = document.querySelectorAll(".fa-heart")
+      const comments = document.querySelectorAll(".replies")
+      hearts.forEach((heart)=>{
+        heart.addEventListener("click",(e)=>{
+          e.srcElement.className == "fa-regular fa-heart"?  e.srcElement.className = "fa-solid fa-heart" : e.srcElement.className = "fa-regular fa-heart"
+        })
+      })
+    comments.forEach((comment) => {
+      comment.addEventListener("click", (e) => {
+        let target = e.target.parentNode.parentNode.parentNode;
+        console.log(target);
+        
+        let textarea = document.createElement('textarea');
+        target.appendChild(textarea);
+      });
+    });
+    
+    </script>
 </body>
 </html>

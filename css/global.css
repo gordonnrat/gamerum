@@ -197,3 +197,13 @@ body{
     left: -10px;
     top: 25px;
 }
+
+.fa-heart{
+    cursor: pointer;
+}
+
+.reaction {
+    display: flex;
+}
+.replies {
+   margin-left: 10px;
