@@ -52,7 +52,23 @@ section.latest-news {
 	grid-column: 1 / -1;
 	background-color: #FEFAE0;
 	padding: 1rem;
+    list-style: none;
+    font-size: x-large;
 }
+
+#news-title{
+    padding: 0 10px;
+}
+
+#events-title{
+    padding: 0 70px;
+}
+
+.latest-news-header a{
+    color: #000;
+    text-decoration: none;
+}
+
 #latest-news{
     display: grid;
     grid-template-columns: 1fr 1fr;
