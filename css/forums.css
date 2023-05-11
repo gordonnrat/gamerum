@@ -35,32 +35,6 @@
     bottom: 30px;   
 }
 
-/*FOOTER */
-.footer-links { 
-    text-align: right;
-    padding: 0px 20px 0px 20px;
-}
-footer {
-    bottom: 0;
-    width: 100%;
-    height: 60px; 
-    background-color: #CCD5AE;
-    padding: 10px 0px 0px 0px;
-}
-.footer-links a {
-    display: inline-block;
-    padding: 10px;
-    margin: 0 10px;
-    background-color: #CCD5AE;
-    color: #4B3825;
-    text-decoration: none;
-    border-radius: 5px;
-}
-  
-.footer-links a:hover {
-    background-color: #DBE1BC;
-}
-
 #dropdown-menu{
     list-style: none;
   }
