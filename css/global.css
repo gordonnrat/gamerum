@@ -12,6 +12,10 @@ body{
     font-weight: bolder;
 }
 
+.navbar{
+    list-style-type: none;
+}
+
 /* nav */
 .navbar-nav {
     margin-left: auto;

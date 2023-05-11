@@ -60,3 +60,7 @@ footer {
 .footer-links a:hover {
     background-color: #DBE1BC;
 }
+
+#dropdown-menu{
+    list-style: none;
+  }
