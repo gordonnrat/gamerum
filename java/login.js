@@ -49,7 +49,7 @@ nextButton.addEventListener("click", () => {
 
 logOut = () => {
   if(username != "Login") {
-    loginTitle.innerHTML = "Sign Out?";
+    loginTitle.innerHTML = "Log Out?";
     usernameInput.style.display= "none";
   } else if(username == "Login") {
     loginTitle.innerHTML = "Sign in to Gamerum";
