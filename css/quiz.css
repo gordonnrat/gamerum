@@ -20,6 +20,7 @@ body {
     margin: 100px auto 0;
     padding: 30px;
     border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
     /* 4. Select the btn class:
         add a background color
@@ -43,6 +44,7 @@ body {
     border: 1px solid #D4A373;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
 }
 
     /* 5. Select the next-btn div:
