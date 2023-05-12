@@ -2,6 +2,32 @@ body {
 	background-color: #E9EDC9;
 }
 
+main{
+    display: flex;
+}
+
+.column1{
+    margin: auto;
+}
+
+.column2{
+    margin: auto;
+}
+
+.card-img-top {
+    max-height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-img-top img{
+    width: 100%;
+}
+
+.card {
+    margin: 30px;
+}
+
 header {
 	display: flex;
 	align-items: center;
@@ -9,6 +35,14 @@ header {
 	padding: 1rem;
 }
 
+.btn { 
+   background-color: #eabe7d !important;
+   border-color: #eabe7d !important;
+}
+
+.card-body {
+    background-color: #CCD5AE;
+}
 /* nav */
 .navbar-nav {
     margin-left: auto;
